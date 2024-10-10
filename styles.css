@@ -53,10 +53,40 @@ main {
     flex-grow: 1; 
 }
 
-.introduction{
-    color: black;
+.about-me {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
 }
 
+.about-me article {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    text-align: center;
+}
+
+.about-me img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about-me h2 {
+    font-size: clamp(1.5rem, 2vw, 2rem);
+    color: #3498db;
+}
+
+.about-me p {
+    font-size: clamp(1rem, 1.5vw, 1.2rem);
+    color: #333;
+    line-height: 1.6;
+}
 .introduction img {
     width: 100%;
     max-width: 300px;
